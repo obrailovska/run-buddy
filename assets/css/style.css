@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -169,6 +169,26 @@ footer a {
 /*hero style end*/
 
 /* meet our trainers style start*/
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #fce138;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+  
+  .trainers {
+    text-align: center;
+  }
 
 .trainer {
     text-align: center;
