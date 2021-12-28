@@ -81,6 +81,19 @@ footer a {
   justify-content: center;
   flex-wrap: wrap;
 }
+/* .hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+/* .hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+} */
 /* secondary page hero */
 .hero-secondary {
   margin: 20px;
@@ -93,6 +106,9 @@ footer a {
 .hero-secondary {
   background-color: black;
   color: red;
+}
+.flex-row {
+  display: flex;
 }
 
 .hero-form {
@@ -134,10 +150,11 @@ footer a {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -146,9 +163,6 @@ footer a {
 
 .secondary-border {
   border-color: #39a6b2;
-}
-.intro {
-  text-align: center;
 }
 
 .intro p {
@@ -159,29 +173,46 @@ footer a {
   margin: 0 auto;
 }
 .steps {
-  text-align: center;
   background: #fce138;
 }
-.steps div {
-  margin-bottom: 80px;
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.steps img {
-  width: 15%;
-  margin: 10px 0;
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
 }
-.steps h3 {
+.step h3 {
   color: #024e76;
   font-size: 46px;
-  margin-top: 10px;
   text-align: center;
+  flex: 1 30%;
+}
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+.step-text {
+  flex: 12;
 }
 .steps p {
   color: #39a6b2;
   font-size: 23px;
-}
-.steps span {
-  font-size: 38px;
 }
 
 /*hero style end*/
@@ -204,9 +235,9 @@ footer a {
   border-color: #39a6b2;
 }
 
-.trainers {
-  text-align: center;
-}
+/* .trainers {
+  
+} */
 
 .trainer {
   text-align: center;
@@ -253,7 +284,6 @@ footer a {
 /*reach out contact info start*/
 .contact {
   background-color: #024e76;
-  text-align: center;
 }
 
 .contact h2 {
