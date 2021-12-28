@@ -49,17 +49,18 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 footer div {
-  float: right;
   line-height: 1.5;
-  text-align: right;
+  font-size: small;
 }
 footer a {
   color: #024e76;
@@ -76,6 +77,9 @@ footer a {
   background-color: white;
   font-size: 20px;
   color: blue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 /* secondary page hero */
 .hero-secondary {
@@ -95,7 +99,8 @@ footer a {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
+  width: 40%;
+  margin: 3.5%;
   color: #024e76;
   position: absolute;
   bottom: 10px;
