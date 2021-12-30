@@ -101,20 +101,14 @@ section {
 /* HERO STYLES START */
 .hero {
   background-image: url("../images/hero-bg.jpeg");
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin: 20px;
-  background-color: white;
-  font-size: 20px;
-  color: blue;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-attachment: fixed;
-  background-position: 80%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
 }
 .hero-cta {
   width: 35%;
